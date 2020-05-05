@@ -1,0 +1,11 @@
+<div class="container">
+    <h2>Students</h2>
+    <cdk-virtual-scroll-viewport itemSize="100"
+       class="example-viewport">
+    <div *cdkVirtualFor="let Student of Students"
+    class="lists">
+  <h2>{{Student.name}}</h2>
+</div>
+ </cdk-virtual-scroll-viewport>
+</div>
+

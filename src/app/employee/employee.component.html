@@ -1,0 +1,17 @@
+<p>employee works!</p>
+<table border="1" align="center">
+    <thead>
+        <th>ID</th>
+        <th>Employee_Name</th>
+        <th>Employee_Salary</th>
+        <th>Employee_Age</th>  
+    </thead>
+    <tbody>
+<tr *ngFor="let item of response">
+    <td>{{item.id}}</td>
+     <td>{{item.employee_name}}</td>
+    <td>{{item.employee_salary}}</td>
+    <td>{{item.employee_age}}</td> 
+</tr>
+</tbody>
+</table>
